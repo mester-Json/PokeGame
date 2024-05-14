@@ -20,7 +20,7 @@ module.exports = {
 
             if (now < expirationTime) {
                 const timeLeft = (expirationTime - now) / 1000 / 60 / 60;
-                return interaction.reply(`Veuillez attendre ${timeLeft.toFixed(1)} heures avant de réutiliser la commande \`pokegame\`.`);
+                return interaction.reply(`Veuillez attendre ${timeLeft.toFixed(1)} heures avant de réutiliser la commande \`/pokegame\`.`);
             }
 
         }
